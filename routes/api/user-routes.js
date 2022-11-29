@@ -1,4 +1,4 @@
-const router = require('express').router();
+const router = require('express').Router();
 
 //add get, post, put, etc. api for users
 const {
