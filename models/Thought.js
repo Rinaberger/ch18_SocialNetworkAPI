@@ -5,13 +5,13 @@ const dateFormat = require("../utils/dateFormat");
 const ReactionShema = new Schema(
     {
         reactionId: {
-            type: Schema.types.ObjectID,
+            type: Schema.Types.ObjectID,
             default: () => new Types.ObjectId(),
         },
         reactionBody: {
             type: String,
             required: true,
-            maxlenght: 280,
+            maxlength: 280,
         },
         username: {
             type: String,
@@ -34,7 +34,7 @@ const ReactionShema = new Schema(
 //thought schema
 const ThoughtSchema = new Schema(
     {
-        thoughText: {
+        thoughtText: {
             type: String,
             required: true,
             maxlength: 280,
