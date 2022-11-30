@@ -95,8 +95,8 @@ const thoughtController = {
   addReaction({ params, body }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
-      { $addToSet: { reactions: body } },
-      { new: true }
+      { $push: { reactions: body } },
+      { new: true, runValidators: true }
     )
       .then((dbThoughtData) => {
         if (!dbThoughtData) {

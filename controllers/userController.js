@@ -90,7 +90,6 @@ const userController = {
       .catch((err) => res.json(err));
   },
 
-  // DELETE friend
   deleteFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.id },
@@ -99,7 +98,7 @@ const userController = {
     )
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: 'No friend found with this id' });
+          res.status(404).json({ message: "No friend found with this id" });
           return;
         }
         res.json(dbUserData);
@@ -107,5 +106,6 @@ const userController = {
       .catch((err) => res.json(err));
   },
 };
+
 
 module.exports = userController;
