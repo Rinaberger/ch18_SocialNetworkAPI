@@ -7,8 +7,10 @@ AUTHOR: Scott Rinaberger
 
 LINKS:
 
-    ** HTTP URL Link: https://cmsblog.herokuapp.com/
-    ** GitHub URL: https://github.com/Rinaberger/ch14_cms-blog-site.git
+    ** Video HTTP URL Link: 
+            Users: https://drive.google.com/file/d/1WkwI2YjESrkbI6ezMFzX8E2ujwcRU2Q1/view
+            Thoughts: https://drive.google.com/file/d/1-Mz1mKwgXkp-cj_ufEwsfA0zLUQhNFgu/view
+    ** GitHub URL: https://github.com/Rinaberger/ch18_SocialNetworkAPI.git
 
 USER STORY
 
